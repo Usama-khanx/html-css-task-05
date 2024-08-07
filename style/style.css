@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-section1{
+    background-color: #773cbb;
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+    align-items: center;
+}
+body{
+    background-color: #5495f7;
+}
+#digitalImagelogo
+{
+    width: 80px;
+    height: 60px;
+    
+}
+
+.search{
+  padding: 8px 26px;
+}
+/* .search-icon{
+    position: absolute;
+    left: 0px;
+} */
+
+
+/*  Section 2 start */
+
+.section-2{
+    display: grid;
+    
+    grid-template-areas: 'menu-items menu-items menu-items menu-items menu-items   mobileandpc ';
+}
+.menu-items{
+grid-area: menu-items;
+border: 5px solid red;
+}
+.mobileandpc{
+    grid-area: mobileandpc;
+}
+#mobileandpc{
+   height: 50%;
+
+}
