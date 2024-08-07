@@ -32,18 +32,41 @@ body{
 /*  Section 2 start */
 
 .section-2{
-    display: grid;
+   
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    height: 40vh;
     
-    grid-template-areas: 'menu-items menu-items menu-items menu-items menu-items   mobileandpc ';
+    margin: 8px 0px;
+   
+    
 }
 .menu-items{
-grid-area: menu-items;
-border: 5px solid red;
+font-family: cursive;
+
+background-color: #ffffff;
+height: 100%;
+
 }
+.menu-items li{
+    list-style-type: none;
+   
+    margin: 8px 2px;
+}
+.menu-items li a{
+    text-decoration: none;
+   
+    color: black;
+}
+
 .mobileandpc{
-    grid-area: mobileandpc;
+ 
+   width: 100%;
+   height: 100%;
 }
 #mobileandpc{
-   height: 50%;
-
+   
+    width: 100%;
+    height: 100%;
 }
