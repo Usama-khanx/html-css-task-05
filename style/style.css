@@ -44,29 +44,33 @@ body{
 }
 .menu-items{
 font-family: cursive;
-
 background-color: #ffffff;
-height: 100%;
+height: 90%;
+margin: 0 12px;
+width: 40%;
 
 }
 .menu-items li{
     list-style-type: none;
-   
     margin: 8px 2px;
 }
 .menu-items li a{
     text-decoration: none;
-   
     color: black;
 }
 
 .mobileandpc{
- 
-   width: 100%;
-   height: 100%;
+    margin: 0 16px;
+   width: 90%;
+   height: 90%;
 }
 #mobileandpc{
-   
-    width: 100%;
+    width: 95%;
     height: 100%;
+}
+
+
+/* section for smart phone  */
+.section-3{
+    border: 3px solid red;
 }
