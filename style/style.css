@@ -313,7 +313,20 @@ width: 40%;
     
     margin-left: auto;
     margin-right: auto;
+
+    transition-property: all;
+    transition-duration: 0.2s;
+
     
+}
+
+.section-5 div:hover{
+    transform: scale(1.01);
+    box-shadow:  7px 7px 19px #05222fd6;
+}
+.section-5 div:active{
+    transform: scale(1.02);
+    box-shadow: 7px 7px 26px #031f2cd6;;
 }
 
 .section-5 img{
@@ -327,15 +340,188 @@ width: 40%;
     /* text-align: center; */
     position: absolute; 
      bottom: 0px;
-    right: 100px;
+    right: 120px;
   
+}
+
+
+
+@media(max-width: 860px){
+    /* #smart-watch{
+        margin-top: 70px;
+        margin-left: 20px;
+     } */
+     .section-5{
+        /* background-color: #82a8dc; */
+        display: grid;
+        grid-template-columns: auto auto ;
+        
+        
+        margin: 16px 0;
+        
+    }
+    .section-5 div{
+        background-color: #3ba7dad6;
+        border-radius: 12px;
+        box-shadow:  7px 7px 16px #031f2cd6;
+        margin: 12px 3px;
+        position: relative;
+        height: 95%;
+        width: 90%;
+        
+        margin-left: auto;
+        margin-right: auto;
+
+        transition-property: all;
+        transition-duration: 0.2s;
+    
+        
+    }
+    
+    
+.section-5 div:hover{
+    transform: scale(1.01);
+    box-shadow:  7px 7px 19px #05222fd6;
+}
+.section-5 div:active{
+    transform: scale(1.02);
+    box-shadow: 7px 7px 26px #031f2cd6;;
+}
+
+    .section-5 img{
+       
+        display: block;
+       margin: 25px auto;
+    
+    }
+    
+    .section-5 p{
+        /* text-align: center; */
+        position: absolute; 
+         bottom: 0px;
+        right: 110px;
+      
+    }
+}
+/* 800 wel end */
+
+@media(max-width: 760px){
+    /* #smart-watch{
+        margin-top: 70px;
+        margin-left: 20px;
+     } */
+     .section-5{
+        /* background-color: #82a8dc; */
+        display: grid;
+        grid-template-columns: auto auto ;
+        
+        
+        margin: 16px 0;
+        
+    }
+    .section-5 div{
+        background-color: #3ba7dad6;
+        border-radius: 12px;
+        box-shadow:  7px 7px 16px #031f2cd6;
+        margin: 12px 3px;
+        position: relative;
+        height: 95%;
+        width: 90%;
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+        transition-property: all;
+        transition-duration: 0.2s;
+        
+    }
+    .section-5 div:hover{
+        transform: scale(1.01);
+        box-shadow:  7px 7px 19px #05222fd6;
+    }
+    .section-5 div:active{
+        transform: scale(1.02);
+        box-shadow: 7px 7px 26px #031f2cd6;;
+    }
+    
+    .section-5 img{
+       
+        display: block;
+       margin: 25px auto;
+    
+    }
+    
+    .section-5 p{
+        /* text-align: center; */
+        position: absolute; 
+         bottom: 0px;
+        right: 110px;
+      
+    }
+}
+/* 700 wel end */
+
+
+@media(max-width: 560px){
+    /* #smart-watch{
+        margin-top: 70px;
+        margin-left: 20px;
+     } */
+     .section-5{
+        /* background-color: #82a8dc; */
+        display: grid;
+        grid-template-columns: auto auto ;
+        
+        
+        margin: 16px 0;
+        
+    }
+    .section-5 div{
+        background-color: #3ba7dad6;
+        border-radius: 12px;
+        box-shadow:  7px 7px 16px #031f2cd6;
+        margin: 12px 3px;
+        position: relative;
+        height: 95%;
+        width: 96%;
+        
+        margin-left: auto;
+        margin-right: auto;
+
+        transition-property: all;
+        transition-duration: 0.2s;
+        
+    }
+    .section-5 div:hover{
+        transform: scale(1.01);
+        box-shadow:  7px 7px 19px #05222fd6;
+    }
+    .section-5 div:active{
+        transform: scale(1.02);
+        box-shadow: 7px 7px 26px #031f2cd6;;
+    }
+    
+    .section-5 img{
+       
+        display: block;
+       margin: 25px auto;
+    
+    }
+    
+    .section-5 p{
+        /* text-align: center; */
+        position: absolute; 
+         bottom: 0px;
+        right: 50px;
+      
+    }
 }
 
 /* footer */
 .footer{
 
     margin-top: 55px;
-    border: 2px solid red;
+   
    display: flex;
    /* justify-content: center; */
    flex-direction: column;
